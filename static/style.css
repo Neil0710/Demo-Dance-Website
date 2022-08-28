@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Edu+SA+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    box-sizing: border-box;
+}
+
+#logo{
+    color: white;
+    margin: 0 14px;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#logo img{
+    height: 50px;
+    filter: invert(1);
+
+}
+#navbar {
+    background-color: black;
+    height: 9vh;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 20px;
+}
+
+#navbar ul li a {
+    font-size: 1.4rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    font-size: 1.5rem;
+    color: rgb(227, 115, 115);
+    text-decoration: none;
+}
+
+#introSection {
+    min-height: 50vh;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("static/dance2.jpg");
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 590;
+    /* background-color: rgb(121, 224, 191); */
+}
+
+#introSection div.small {
+    font-size: 1.8rem;
+}
+
+
+#missionSection {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    min-height: 45vh;
+    background-color: rgb(244, 210, 86);
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 2vh 1vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    height: 35vh;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: 25;
+}
+
+.card-Box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.card-img{
+    height: 20vh;
+}
+.card-img img{
+    height: inherit;
+}
+
+.card-Content{
+    padding: 5px 10px;
+}
+
+.card-Content p{
+    padding: 5px 10px;
+}
+
+
+#sponsorsSection {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    height: 30vh;
+    background-color: rgb(168, 230, 148);
+    text-align: center;
+}
+
+#sponsors{
+    margin: 7vh auto;
+    height: 8vh;
+    width: 90%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+#sponsors img{
+    margin: auto auto;
+    height: inherit;
+    filter: grayscale(.5);
+}
+
+
+
+#footer {
+    display: flex;
+    color: antiquewhite;
+    height: 9vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 1.25rem;
+    
+}
