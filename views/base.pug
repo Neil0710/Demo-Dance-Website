@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Neil's Dance Academy 
+    block scripts
+    block style
+      style 
+        include ../static/style.css
+  body
+    nav#navbar.top 
+      ul
+        div#logo
+          img(src="/static/danceLogo.png", alt="")
+          | NDA
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") Services ]
+          li #[a(href="/") Join Classes ]
+          li #[a(href="/contact") Contact Us ]
+    block content
+    footer#footer 
+      div 
+        strong Copyright
+        |  © Neil's Dance Academy 2021-22 |
+        | All Rights Reserved.
+//- this is a form which is filled for various pages of the website.

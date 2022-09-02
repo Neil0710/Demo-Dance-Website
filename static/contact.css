@@ -1,0 +1,39 @@
+.contactContainer {
+    box-sizing: border-box;
+    margin: 2vh;
+    min-height: 80vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 12px;
+    font-weight: 700;
+}
+
+.enquiryForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInput {
+    padding: 12px;
+    margin: 5px;
+    width: 40%;
+    outline: none;
+    border: 2px solid rgb(49, 37, 37);
+    border-radius: 9px;
+    font-size: 1rem;
+}
+
+#formSubmit {
+    background-color: rgb(98, 65, 65);
+    color: antiquewhite;
+    padding: 12px 18px;
+    margin: 15px;
+    border-radius: 9px;
+    font-size: 1rem;
+    outline: none;
+}

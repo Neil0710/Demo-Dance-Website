@@ -18,12 +18,22 @@
     font-size: 1.2rem;
 }
 
+#logo:hover{
+    color: rgba(236, 161, 81, 0.908);
+    margin: 0 14px;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
 #logo img{
     height: 50px;
     filter: invert(1);
 
 }
 #navbar {
+    display: flex;
+    align-items: center;
     background-color: black;
     height: 9vh;
 
@@ -91,7 +101,7 @@
     border: 2px solid black;
     border-radius: 5px;
     width: 25%;
-    height: 35vh;
+    height: 40vh;
     display: inline-block;
 }
 
@@ -134,20 +144,17 @@
 }
 
 #sponsors{
-    margin: 7vh auto;
-    height: 8vh;
-    width: 90%;
+    margin: 40px auto;
+    height: 10vh;
+    width: 80%;
     display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
+    align-items: center;
 }
-#sponsors img{
-    margin: auto auto;
+.spImage{
+    width: 80%;
+    margin: 30px 20px;
     height: inherit;
-    filter: grayscale(.5);
 }
-
-
 
 #footer {
     display: flex;
